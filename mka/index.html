@@ -1,0 +1,490 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!------------------------------------------------------>
+<!------------------------------------------------------>
+<!------------------------------------------------------>
+<head>
+    <title>Specta | MKA</title>
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/form.css" />
+	<link href="css/index.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/scroll.js"></script>
+	<script src="js/all.js"></script> 
+<!------------------------------------------------------>
+<!-------------------ANALYTICS CODE--------------------->
+<!------------------------------------------------------>
+​<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-50431605-2', 'specta.in');
+  ga('send', 'pageview');
+</script> ​
+<!------------------------------------------------------>
+<!-------------------ANALYTICS CODE END----------------->
+<!------------------------------------------------------>
+</head>
+<!------------------------------------------------------>
+<!------------------------------------------------------>
+<!------------------------------------------------------>
+    <body style="padding:0px; margin:0px;">
+
+<!----------------------------------------------------------------------------->    
+<!----------------------------------------------------------------------------->    
+<!-----------------JavaScript to Scroll the slides----------------------------->
+<!----------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------->
+	<script type="text/javascript">
+    var ur = document.URL;
+    //////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////
+    //////////////////////////////////// work ////////////
+    $(document).ready(function()
+        {
+    $('#up').click(function (){
+        $('#slide1').ScrollTo({
+        duration: 1000,easing: 'linear'});});
+    //////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////
+    $('#whymenu').click(function (){
+        $('#slide1').ScrollTo({
+        duration: 1000,easing: 'linear'});});
+    //////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////
+    $('#howmenu').click(function (){
+        $('#slide2').ScrollTo({
+        duration: 1000,easing: 'linear'});});
+    //////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////
+    $('#whatmenu').click(function (){
+        $('#slide3').ScrollTo({
+        duration: 1000,easing: 'linear'});});
+    //////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////
+    $('#downmenu').click(function (){
+        $('#slide4').ScrollTo({
+        duration: 1000,easing: 'linear'});});
+    });
+    </script>
+ <!----------------------------------------------------------------------------->
+ <!------------------------------JavaScript Ends-------------------------------->
+ <!----------------------------------------------------------------------------->
+ 
+ <!----------------------------------------------------------------------------->
+ <!------------------------------Header----------------------------------------->
+ <!----------------------------------------------------------------------------->
+	<div id="mainBody">
+		<div style="top:0px; left:0px;  position:fixed; z-index:1;  background-color:#FFF;  width:100%">
+			<table align="left">
+				<tr>
+					<td style="padding-left:20px; top:0px; position:relative;">
+						<a href="http://www.specta.in"><img src="images/specta.png" style="width:70px;"></a>
+					</td>
+				</tr>
+			</table>
+			
+			<table align="right" cellspacing="30px" >
+				<tr>
+					<td class="menubarlinks">
+						<a href="http://www.specta.in#home" target=_blank>Home</a>
+					</td>
+					<td class="menubarlinks">
+						<a href="http://www.specta.in#work" target=_blank>Products</a>
+					</td>
+					<td class="menubarlinks">
+						<a href="http://www.specta.in#about" target=_blank>About</a>
+					</td>
+					<td class="menubarlinks">
+						<a href="http://www.specta.in#contact" target=_blank>Contact</a>
+					</td>
+				</tr>
+			</table>
+			
+		</div>
+		<div style="height:100px;width:10px;"></div>
+        <div id="cta"  align="center" style=" position:relative;background-color:#FFF;">
+			
+        <div style="font-family:Open Sans Light; text-align:center; line-height:30px; font-size:20px; color:#333333; width:750px;">
+<strong>MKA (Ma-Ki-Ankh)</strong> is an application aiming to improve your health related issues caused by sitting in front of computers for long hours via reminders.
+		</div>
+         <div style="height:50px;width:10px;"></div>
+         <div>
+         	<img src="images/laptop_top.png" />
+         </div>    
+         <div style="background-image:url(images/line_pattern.png); width:100%; height:5px;">
+         </div>
+		<img src="images/download_button_top.png" style="position:relative; top:-40px;" />
+        
+        <!---------------------------------->
+        <!-------download Section----------->
+        <!---------------------------------->
+         <div style="height:20px;width:10px;"></div>
+         <div id="more_about" style="font-family:Open Sans Light; display:inline; cursor:pointer; text-align:center; line-height:30px; font-size:20px; color:#333333; width:750px;">
+			Tell me more about it
+          </div>
+         <div>
+        
+         <!---------------------------------->
+         <!--------Arrow Added--------------->
+         <!---------------------------------->
+<div id="mainbox" style="position:relative; left:650px; top:0px;height:300px;">
+
+<div id="one" style="position:absolute; top:10px;">
+<img src="images/arrow_down.png" style="display:inline; cursor:pointer;"/> 
+</div>
+
+<div id="two" style="position:absolute; top:30px;">
+<img src="images/arrow_down.png" style="display:inline; cursor:pointer;"/> 
+</div>
+
+<div id="three" style="position:absolute; top:50px;">
+<img src="images/arrow_down.png" style="display:inline; cursor:pointer;"/> 
+</div>
+
+</div>
+
+<!---------------------------------->
+<!---------Arrow Animation---------->
+<!---------------------------------->
+ 
+<script type="text/javascript">
+ 
+var count= 0;
+
+$('document').ready(function (){
+	$("#two,#three").hide();
+	timer = setInterval(function()
+	{	
+	
+	 if (count == 0)
+	 {
+	//	 alert(count);
+		 $("#three").fadeOut(100);
+		 $("#one").fadeIn(500);
+	 }
+		
+	 if (count == 1)
+	 {
+		// alert(count);
+		 $("#one").fadeOut(900);
+		 $("#two").fadeIn(100);
+	 }
+	
+	 if (count == 2)
+	 {
+		 //alert(count);
+		 $("#two").fadeOut(500);
+		 $("#three").fadeIn(900);
+	 }
+	if (count <2)
+		 count = count+1;
+		else
+		count =0;
+	},300);
+});
+</script>
+         
+         
+         
+         <div style="height:50px;width:10px;"></div>
+
+             
+             
+		</div>
+    <!---------------------------------->
+    <!-----------Slide1----------------->
+    <!---------------------------------->    
+		<div id="slide1"  align="center" style=" position:relative;background-color:#FFF;">
+			<table cellspacing="30px" border="0px">
+				<tr>
+					<td align="right">
+						<img src="images/computer.png">
+					</td>
+                    <td width="550px" style="top:-20px; position:relative;">
+                        <font style="font-family:Open Sans Light; font-size:80px; color:#333333;">
+                        Computer Kills!
+                        </font>
+                        <br />
+                        <div style="font-family:Open Sans Light; text-align:justify; line-height:30px ;  font-size:20px; color:#333333;">
+Today, people are spending most of their time on computers - working on projects, playing games, watching movies and meeting deadlines. Their eyes are glued to monitor screens uninterruptedly and arse to chairs. Using computers for long uninterrupted hours every day have numerous associated risks and problems. 	                        </div>
+                    </td>
+				</tr>
+			</table>
+		</div>
+        
+        <!---------------------------------->
+        <!---------Slide 2------------------>
+        <!---------------------------------->
+        <div style="height:130px;width:10px;"></div>   
+        <div id="slide2" align="center" style="font-size:44px;">This causes :</div>       
+        <div align="center" style=" position:relative; background-color:#FFF;">
+        	<table cellspacing="40px">
+            	<tr>
+                	<td width="310px" align="center">
+                        <p><img src="images/1.png" /></p>
+                        <div class="slide2header">Computer Vision Syndrome</div>
+                        <div style="height:10px;"></div>
+                        <div class="slide2content">Prolonged exposure accompanied with constant staring at the computer screen without blinking strain your eyes. This leads to headaches, blurred vision, and dry eyes. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    </div>
+                    </td>
+                	<td width="300px" align="center" style="top: 5px; position: relative;">
+                        <p><img src="images/3.png" /></p>
+                        <div class="slide2header">Repetitive Strain Injury</div>
+                        <div style="height:10px;"></div>
+                        <div class="slide2content">Using computers for long uninterrupted hours every day with improper work habits, poor postures, and bad workstation ergonomics might develop painful and disabling injuries to the musculoskeletal and nervous system, leading to aches and pains in neck, shoulders, arms and hands.
+                        </div>
+                    </td>
+                	<td width="310px" align="center" style="top: 5px; position: relative;">
+                        <p><img src="images/2.png" /></p>
+                        <div class="slide2header">Water Drinking Deprivation</div>
+                        <div style="height:10px;"></div>
+                        <div class="slide2content">Water energizes our muscles, and relieves headaches & back pain. But, we usually forget to drink water at regular intervals while working on computers for hours. This causes muscle fatigue resulting into poor work efficiency and performance degradation.  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div style="height:100px;width:10px;"></div>
+        
+        <!---------------------------------->
+        <!-----------Slide 3---------------->
+        <!---------------------------------->
+        <div id="solution">
+            <div id="slide3" align="center">
+                            <font style="font-family:Open Sans Light; font-size:65px; color:#333333; text-align:center;">
+                                Solution?</br>
+                            </font>
+                        	<font style="font-family:Open Sans Light; font-size:30px; color:#333333; text-align:center;">
+                            	A computer application that </br>
+                               in equal intervals reminds you to :
+                            </font>
+            </div>
+            <div>
+                <table border="0px" cellspacing="40px" align="center" style="text-align:center;">
+                    <tr>
+                        <td style="width:170px">
+                           <img src="images/eye.png" height="235px">
+                           <p>
+                           <font style="font-family:Open Sans Light; font-size:24px; color:#333333; text-align:center;">
+                           Blink your eyes <br />
+                            &nbsp;
+                           </font>
+                           </p>
+                        </td>
+                        <td style="width:250px">
+                           <img src="images/walk.png" height="235px">
+                           <p>
+                           <font style="font-family:Open Sans Light; font-size:24px; color:#333333; text-align:center;">
+                           Leave your computer</br>
+                           and take a walk
+                           </font>
+                           </p>
+                        </td>
+                        <td style="width:100px">
+                        	&nbsp; <br />
+                           	<img src="images/water.png" height="210px">
+                            <p>
+                            <font style="font-family:Open Sans Light; font-size:24px; color:#333333; text-align:center;">
+                            Drink a glass of water
+                            </font>
+                            </p>
+                         </td>   
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!---------------------------------->
+        <!-----------!div spacing ---------->
+        <!---------------------------------->
+   <div style="height:20px;width:10px;"></div>
+   <div align="center" id="slide4">
+        	 <!-----------!download button ---->	
+		<table cellspacing="30px" border="0px" bordercolor="#003333">
+			<tbody>
+				<tr>
+						<div class="mockup-content">
+					<td>
+						<div class="morph-button morph-button-modal morph-button-modal-2 morph-button-fixed" >
+							<button type="button"><img src="images/download.png" /></button>
+							<div class="morph-content" style="height:164px;">
+								<div>
+									<div class="content-style-form content-style-form-1" >
+										<span class="icon icon-close" style="right:10px; font-size:28px; cursor:pointer; position:absolute;">x</span>
+										<form id="download_form">
+											<p><label>Email</label><input style="width:290px;" type="text" id="email2" /></p>
+											<p><button id="download" style="cursor:pointer;" >Download</button></p>
+                                            <div style="height:2px; width:2px;"></div>
+                                            <font style="top:-3px; font-size:12px; color:#333; position:relative; z-index:1000;">
+                                            (only for windows) &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *mac version coming soon
+                                            </font>
+										</form> 
+									</div>
+								</div>
+							</div>
+						</div><!-- morph-button -->
+					</td>
+					<td>
+						<font style="font-family:Open Sans Light; font-size:27px; color:#333333;">
+						&nbsp; Or
+						</font>
+					</td>
+					<td>
+						<div class="morph-button morph-button-modal morph-button-modal-3 morph-button-fixed" >
+							<button type="button"><img src="images/feedbackbutton.png"  /></button>
+							<div class="morph-content">
+								<div>
+									<div class="content-style-form content-style-form-2">
+										<span class="icon icon-close" style="right:10px; cursor:pointer; position:absolute; font-size:28px;">x</span>
+										<form id="feed_form">
+											<p><label>Email</label><input type="text" id="email1" /></p>
+											<textarea style="width: 371px;" rows="10" cols="44" style="resize:none" id="feedback"></textarea>
+											<Button id="submit_feed" style="cursor:pointer;" >Submit</Button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div><!-- morph-button -->
+					</td>
+					</div><!-- /form-mockup -->
+				</tr>
+			</tbody>
+		</table>
+	</div>
+			<img style="left:10px; bottom:10px; position:fixed;" width="150px" src="images/mkalogo.png">
+			<table id="mkamenu" cellspacing="50px">
+            	<tr>
+                    <td id="whymenu" style="cursor:pointer; background-color:#FFF; ">Why?</td>
+                    <td id="howmenu" style="cursor:pointer; background-color:#FFF;">How?</td>
+                    <td id="whatmenu" style="cursor:pointer; background-color:#FFF;">What?</td>
+                    <td id="downmenu" style="cursor:pointer; background-color:#FFF;">Download!</td>
+                </tr>
+			</table>    
+    <div style="height:70px;width:10px; "></div> 
+    </div>
+	</div><!-- /container -->
+		<script src="js/index.js"></script>
+		<script>
+			(function() {
+				var docElem = window.document.documentElement, didScroll, scrollPosition;
+
+				// trick to prevent scrolling when opening/closing button
+				function noScrollFn() {
+					window.scrollTo( scrollPosition ? scrollPosition.x : 0, scrollPosition ? scrollPosition.y : 0 );
+				}
+
+				function noScroll() {
+					window.removeEventListener( 'scroll', scrollHandler );
+					window.addEventListener( 'scroll', noScrollFn );
+				}
+
+				function scrollFn() {
+					window.addEventListener( 'scroll', scrollHandler );
+				}
+
+				function canScroll() {
+					window.removeEventListener( 'scroll', noScrollFn );
+					scrollFn();
+				}
+
+				function scrollHandler() {
+					if( !didScroll ) {
+						didScroll = true;
+						setTimeout( function() { scrollPage(); }, 60 );
+					}
+				};
+
+				function scrollPage() {
+					scrollPosition = { x : window.pageXOffset || docElem.scrollLeft, y : window.pageYOffset || docElem.scrollTop };
+					didScroll = false;
+				};
+
+				scrollFn();
+
+				[].slice.call( document.querySelectorAll( '.morph-button' ) ).forEach( function( bttn ) {
+					new UIMorphingButton( bttn, {
+						closeEl : '.icon-close',
+						onBeforeOpen : function() {
+							// don't allow to scroll
+							noScroll();
+						},
+						onAfterOpen : function() {
+							// can scroll again
+							canScroll();
+						},
+						onBeforeClose : function() {
+							// don't allow to scroll
+							noScroll();
+						},
+						onAfterClose : function() {
+							// can scroll again
+							canScroll();
+						}
+					} );
+				} );
+
+				// for demo purposes only
+				[].slice.call( document.querySelectorAll( 'form button' ) ).forEach( function( bttn ) { 
+					bttn.addEventListener( 'click', function( ev ) { ev.preventDefault(); } );
+				} );
+			})();
+		</script>
+
+<!------------------------------------------------------------------->        
+<!-----------------------------------Footer-------------------------->
+<!------------------------------------------------------------------->
+     <div id="lastbarback"> 
+          <div align="center">
+                 <div style="height:20px; width:50px;">
+                 </div>
+                 <font style="font-family:'Open Sans Light'; font-size:24px;">
+                   <table cellpadding="2px">
+                      <tr>
+                        <td>
+                        <div style="height:1px; background-color:#333; width:110px;"></div>
+                        </td>
+                        <td>
+                        In association with
+                        </td>
+                        <td>
+                        <div style="height:1px; background-color:#333; width:110px;"></div>
+                        </td>
+                      </tr>
+                   </table>
+                 </font>
+                 <table cellpadding="10px">
+                    <tr>
+                      <td>
+                      <a href="http://www.specta.in" class="linkall" target="_blank">
+                      <img width="75px" src="images/specta.png" />
+                      </a>
+                      </td>
+                      <td>
+                      <a href="http://www.sankalpsinha.com" class="linkall" target="_blank">
+                      <img width="140px" src="images/logo2-sankalpsinha.png" />
+                      </a>
+                      </td>
+                      <!--<td>
+                      <a href="#" class="linkall" target="_blank">
+                      <img width="100px" src="images/logo3-bakecss.png" />
+                      </a>
+                      </td>-->
+                      <td>
+                      <a href="http://www.letwallinspire.com" class="linkall" target="_blank">
+                      <img width="70px" src="images/logo4-letwallinspire.png" />
+                      </a>
+                      </td>
+                    </tr>
+                 </table>
+                 <font style="font-family:'Open Sans Regular'; font-size:12.5px; line-height:17px;">
+                 All rights reserved | &#169; Specta 2014 | Don't produce any of the works without written consent.
+                 </font>
+                 <div style="height:20px; width:50px;">
+                 </div>
+          </div>  
+     </div>  
+<!-----------------------------------LAST BAR DIV CLOSE-------------------->
+
+	</body>
+</html>

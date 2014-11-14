@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */ 
+/*	background-color:#FFF; 
+	box-shadow: 0px 3px 15px #333;*/
+body
+{
+	padding:0px;
+	background: #FFF;
+	margin:0px;
+	overflow: hidden;
+	font-family:"Open Sans Light";
+	background-image:url(4.jpg);
+}
+
+@font-face {
+  font-family: 'Open Sans Light';
+  font-style: normal;
+  font-weight: 300;
+  src:url(OpenSans-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Open Sans Regular';
+  font-style: normal;
+  font-weight: 300;
+  src:url(OpenSans-Regular.ttf);
+}
+
+
+@font-face {
+  font-family: 'Open Sans Bold';
+  font-style: normal;
+  font-weight: 300;
+  src:url(OpenSans-Bold.ttf);
+}
+
+
+a:link {color:#333;}      /* unvisited link */
+a:visited {color:#000;}  /* visited link */
+a:hover {color:#fd5725;}  /* mouse over link */
+a:active {color:#fd5725;}  /* selected link */
+
+
+::selection 
+{
+	background:#f80;
+}
+
+.linkall
+{
+	text-decoration:none;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////*/

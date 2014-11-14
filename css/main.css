@@ -1,0 +1,275 @@
+/* CSS Document */
+/**************Global styling starts****************/
+body
+{
+	margin:0; 
+	padding:0;
+	overflow-x: hidden;
+	font-family:"Open Sans Light";
+}
+
+a:link {color:#333;}      /* unvisited link */
+a:visited {color:#000;}  /* visited link */
+a:hover {color:#fd5725;}  /* mouse over link */
+a:active {color:#fd5725;}  /* selected link */
+
+@font-face {
+  font-family: 'Open Sans Light';
+  font-style: normal;
+  font-weight: 300;
+  src:url(../fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Open Sans Regular';
+  font-style: normal;
+  font-weight: 300;
+  src:url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Open Sans Bold';
+  font-style: normal;
+  font-weight: 300;
+  src:url(../fonts/OpenSans-Bold.ttf)
+  }
+/**************Global styling ends !********************************/
+/**********************************************************************/
+/**********************************************************************/
+/**********************************************************************/
+/**********************************************************************/
+/*---------------------Styling the menubar starts-----------------------*/
+
+#menubar
+{
+}
+
+#menubar img
+{
+	z-index:100;
+	position:fixed;
+}
+
+#menu
+{
+	right:0px;
+	top:3px;
+	position:fixed;
+	z-index:1000;
+}
+
+
+
+#menu li /*Styling the li part of the menu*/
+{
+    float:left;
+	font-size:18px;
+    padding:4px 10px 4px 10px;
+    display:inline-block;
+    position:relative;
+    text-align:center;
+    margin-right:30px;
+    margin-top:7px;
+    border:none;
+    /*color:#CCCCCC;*/
+}
+
+#menu li a /*Styling the link part of the menu li*/
+{
+    text-decoration:none;
+    color:#000;
+    text-shadow:none
+}
+
+#menu li:hover a /*Styling the link part of the menu li in hover state*/
+{
+    color:#000;
+	text-shadow:1px 1px 5px #6FF;
+}
+/*---------------------Styling the menubar ends!------------------------*/
+/**********************************************************************/
+/**********************************************************************/
+/**********************************************************************/
+/**********************************************************************/
+/*---------------------Styling the home div starts----------------------*/
+.plot
+{
+	position:absolute;
+	top:20px;
+	left:170px;
+	z-index:10;
+}
+/*---------------------Styling the home div ends!----------------------*/
+/*---------------------Stylind the Work Div starts----------------------*/
+#work
+{
+	width:100%;
+	background-color:#F7F7F7;
+}
+
+#readmore,#download
+{
+	text-align:left;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background:none;
+	border-radius: 20px;
+	position:relative;
+	letter-spacing:0.5px;
+}
+
+#readmore a,#download a
+{
+	color: white;
+    display: inline-block;
+    padding: 8px 13px;
+    text-decoration: none;
+    font-weight: bold;
+    background:#2A9FFF;
+}
+
+#readmore a:hover,#download a:hover
+{
+	background:#333;
+	text-decoration:none;
+}
+/*---------------------Stylind the Work Div ends!----------------------*/
+/*---------------------***************************---------------------*/
+/*---------------------***************************---------------------*/
+/*---------------------***************************---------------------*/
+/*---------------------***************************---------------------*/
+/*About Div starts---------------*/
+#about
+{
+	width:100%;
+	/*background-image:url(images/about%20back.jpg);*/
+	/*background-image:url(images/bck.jpg);*/
+	background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.93) 0%, rgba(0, 0, 0, 0.93) 100%),repeat 0 0, url(../images/about_zback.png) 50% repeat fixed; 
+	
+	background: -moz-linear-gradient(top, rgba(255,255,255,0.93) 0%, rgba(255,255,255,0.93) 100%), 
+	url(../images/about_zback.png) 50% repeat fixed; 
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.93)), color-stop(100%,rgba(255,255,255,0.93))), 
+	url(../images/about_zback.png) 50% repeat fixed; 
+	
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.93) 0%,rgba(255,255,255,0.93) 100%), 
+	url(../images/about_zback.png) 50% repeat fixed; 
+	
+	background: -o-linear-gradient(top, rgba(255,255,255,0.93) 0%,rgba(255,255,255,0.93) 100%), 
+	url(../images/about_zback.png) 50% repeat fixed; 
+	
+	background: -ms-linear-gradient(top, rgba(255,255,255,0.93) 0%,rgba(255,255,255,0.93) 100%), 
+	url(../images/about_zback.png) 50% repeat fixed; 
+	
+	background: linear-gradient(to bottom, rgba(255,255,255,0.93) 0%,rgba(255,255,255,0.93) 100%), 
+	url(../images/about_zback.png) 50% repeat fixed; 
+}
+
+#specta p:nth-child(1)
+{
+	position:absolute;
+	align:center;
+	top:90px;
+	height:100px;
+	width:200px;
+	left:600px;
+	font-size:56px;
+	font-weight:100;
+	font-family:'Open Sans',Serif;
+	color:#000;
+}
+
+#aboutspecta
+{
+	position:absolute;
+	top:170px;
+	height:400px;
+	width:800px;
+	color:#000;
+	text-align:justify;
+	left:300px;
+}
+
+#team
+{
+	position:absolute;
+	align:center;
+	top:320px;
+	height:100px;
+	width:200px;
+	left:620px;
+	font-size:56px;
+	font-weight:200;
+	color:#000;
+}
+
+.teampic
+{
+	position:relative;
+	cursor:pointer;
+}
+
+.teamcontact
+{
+	position:relative;
+	top:0px;
+    cursor:pointer;
+}
+/*About Div ends---------------*/
+/*Contact Div starts---------------*/
+#contact
+{
+	width:100%;
+	background-color:#333;
+	background:url(../images/contact_back.jpg) 50% repeat fixed; 
+	
+	
+}
+
+#contacttext a
+{
+	text-decoration:none;
+}
+
+#message
+{
+	top:-20px;
+	left:-20px;
+	position:relative;
+}
+
+/*Contact Div ends---------------*/
+/*Footer Div starts---------------*/
+#footer
+{
+	height:30px;
+	width:100%; 
+	/*background-color: #00AEEF;*/
+	background-color:#222;
+	font-family: 'Open Sans Light';
+	src:url(../fonts/OpenSans-Light.ttf);
+	font-size:12px;
+	color:#FFF;	
+	-webkit-font-smoothing: antialiased; 
+}
+
+#footertext
+{
+	position:relative;
+	top:7px;
+}
+
+#lastbarback
+{
+    bottom:0px; 
+	left:0px;
+	color:#333;
+	background-color:#FFF;
+	background-image:url(../images/noise.png);
+	background-repeat:repeat;
+	width:100%; 
+	box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.6);
+}
+/*Footer Div ends---------------*/	
